@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAC-MOVIES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+  
+</head>
+<body>
+    <script src="index.js"></script>
+    <header class="header">
+        <nav class="navegacion">
+            <a class="anclaLogo" href="#">
+                <i class="fas fa-film" aria-hidden="true"></i>
+                <span>CAC-Movies</span>
+            </a>
+            <ul class="listaNav">
+                <li class="listaItem"><a class="linkNav" href="#tendencias">Tendencias</a></li>
+                <li class="listaItem"><a class="linkNav" href="pages/registrarse.html">Registrarse</a></li>
+                <li class="listaItem"><a class="linkNav iniciarSesion" href="pages/iniciosesion.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" class="main">
+        <section data-aos="zoom-in" data-aos-duration="1000" class="sectionPrincipal">
+            <h1 class="tituloPrincipal">Películas y series ilimitadas <br> en un solo lugar</h1>
+            <h2 class="subtituloPrincipal">Disfruta donde quieras. <br> Cancela en cualquier momento.</h2>
+            <a class="botonRegistrarse" href="pages/registrarse.html">Registrate</a>
+        </section>
+        <section data-aos="fade-up" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" class="buscadorPrincipal">
+            <h2 class="tituloSection">¿Qué estas buscando para ver?</h2>
+            <form class="buscadorPeliculas">
+                <input class="inputBuscador" type="text" placeholder="Buscar..." id="buscar" name="buscar">
+                <input class="botonBuscador" type="submit" value="Buscar">
+            </form>
+        </section>
+        <hr>
+        <section id="tendencias" data-aos="fade-up" data-aos-offset="400" data-aos-delay="100" data-aos-duration="1000" class="peliculasTendencia">
+            <h3 class="tituloSection">Las tendencias de hoy</h3>
+            <div class="peliculas" id="tendenciasContainer">
+                <!-- Aquí se cargarán las películas tendencia -->
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/nowayup.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>No Way Up</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/kinkong.jpg" alt="godzilla x kong">
+                  <div class="titulopelicula">
+                    <h4>Godzilla X Kong: The New Empire</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/alienoid.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Alienoid</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/breathe.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Breathe</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/carmen.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Carmen 1945</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/damaged.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Damaged</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/dune.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Dune</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/fighter.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Fighter</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/ghotsbusters.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Ghotsbusters:<br>Frozen Empire</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/immaculate.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Inmmaculate</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/kingdom.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Kingdom of <br> the Planet of <br> the Apes</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/threemusketeers.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>The Three Musketeers: Milady</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/kungfupanda4.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Kunf Fu <br> Panda 4</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/madameweb.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Madame Web</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/migration.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Migration</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/outsource.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Outsource</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/rebelmoon.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Rebel Moon <br> Part Two: <br> Scargiver</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/roadhouse.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Road House</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/thewagesoffear.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>The Wages Of Fear</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/woody.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Woody Woodpecker Goes To Camp</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Outsource</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/outsource.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Outsource</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+               <div class="peliculas">
+                <a href="#">
+                    <div class="peliculas">
+                        <img class="imgtendencias"   src="imagenespelis/outsource.jpg" alt="No Way Up">
+                  <div class="titulopelicula">
+                    <h4>Outsource</h4>
+                  </div>
+                    </div>
+                </a>
+               </div>
+
+
+
+            </div>
+            <button class="boton anterior">Anterior</button>  
+            <button class="boton siguiente">Siguiente</button>
+        </section>
+        <hr>
+        <section data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="2000" class="peliculasAclamadas">
+            <h3 class="tituloSection">Las más aclamadas</h3>
+            <div class="aclamadas" id="aclamadasContainer">
+                <!-- Aquí se cargarán las películas más aclamadas -->
+                <div class="peliculaitem">
+                  <img src="" alt="" class="Aclamada">
+                  <img src="pelisaclamadas/12angrymen.jpg" alt="12 Angry MAen">
+               </div>
+               <div class="peliculaitem">
+                <img src="pelisaclamadas/cinemaparadiso.jpg" alt="Cinema Paradiso" class="Aclamada">
+                
+             </div>
+             <div class="peliculaitem">
+              <img src="pelisaclamadas/dilwaledulhanialejayenge.jpg" alt="Dilwale Dulhania Le Jayenge" class="Aclamada">
+              
+           </div>
+           <div class="peliculaitem">
+            <img src="pelisaclamadas/forrestgump.jpg" alt="Forrest Gump" class="Aclamada">
+            
+         </div>
+         <div class="peliculaitem">
+          <img src="pelisaclamadas/goodfellas.jpg" alt="Good Fellas" class="Aclamada">
+         
+       </div>
+       <div class="peliculaitem">
+        <img src="pelisaclamadas/gravefureflies.jpg" alt="Grave of the Fireflies" class="Aclamada">
+        
+     </div>
+     <div class="peliculaitem">
+      <img src="pelisaclamadas/lifeisbeatiful.jpg" alt="Life is Beatiful" class="Aclamada">
+     
+   </div>
+   <div class="peliculaitem">
+    <img src="pelisaclamadas/parasite.jpg" alt="Parasite" class="Aclamada">
+  
+ </div>
+ <div class="peliculaitem">
+  <img src="pelisaclamadas/pulfiction.jpg" alt="Pulp Fiction" class="Aclamada">
+  
+</div>
+<div class="peliculaitem">
+  <img src="pelisaclamadas/schindlerslist.jpg" alt="Schindlerslist" class="Aclamada">
+
+</div>
+<div class="peliculaitem">
+  <img src="pelisaclamadas/sevensamurai.jpg" alt="Seven Samurai" class="Aclamada">
+  
+</div>
+<div class="peliculaitem">
+  <img src="pelisaclamadas/spiritedaway.jpg" alt="Spirited Away" class="Aclamada">
+  
+</div>
+<div class="peliculaitem">
+  <img src="pelisaclamadas/The Goodfather.jpg" alt="The Goodfather" class="Aclamada">
+ 
+</div>
+<div class="peliculaitem">
+  <img src="pelisaclamadas/thedarkknight.jpg" alt="The Dark knight" class="Aclamada">
+ 
+</div>
+<div class="peliculaitem">
+  <img src="pelisaclamadas/TheGoodfatherPartII.jpg" alt="The Goodfather Part II" class="Aclamada">
+  
+</div>
+<div class="peliculaitem">
+  <img src="pelisaclamadas/thegoodthebadandtheugly.jpg" alt="The Good, the Bad and the Ugly" class="Aclamada">
+
+</div>
+<div class="peliculaitem">
+  <img src="pelisaclamadas/thegreenmile.jpg" alt="The Green Mile" class="Aclamada">
+
+</div>
+<div class="peliculaitem">
+  <img src="pelisaclamadas/thelordoftherings.jpg" alt="The Lord of The Rings" class="Aclamada">
+
+</div>
+<div class="peliculaitem">
+  <img src="pelisaclamadas/TheShawshankRedemption.jpg" alt="The Shawshank Redemption" class="Aclamada">
+  
+  <div class="peliculaitem">
+    <img src="pelisaclamadas/yourname.jpg" alt="Your Name">
+  </div>
+</div>
+
+           </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav class="navegacion">
+            <ul class="listaNav">
+                <li class="listaItem"><a class="linkNav" href="">Términos y condiciones</a></li>
+                <li class="listaItem"><a class="linkNav" href="">Preguntas frecuentes</a></li>
+                <li class="listaItem"><a class="linkNav" href="">Ayuda</a></li>
+                <li class="listaItem"><a class="linkNav administradorPeliculas" href="">Administrador Peliculas</a></li>
+            </ul>
+        </nav>
+        <a href="#main" class="flechaArriba">
+            <img src="banner/flecha-hacia-arriba.png" alt="ir arriba flecha">
+        </a>
+    </footer>
+
+</body>
+</html>
